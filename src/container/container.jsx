@@ -25,6 +25,8 @@ const Container = ({children}) =>{
                 <Content 
                     style={{ 
                         padding: '0 4px',
+                        marginBottom: '56px',
+                        marginTop: '0px',
                         // display: 'flex',
                         // justifyContent: 'center',
                         // alignItems: 'center' ,
@@ -36,7 +38,7 @@ const Container = ({children}) =>{
                         minHeight: 280,
                         // padding: 24,
                         borderRadius: borderRadiusLG,
-                        marginTop: 16,
+                        // marginTop: 4,
                         // display: 'flex',
                         // justifyContent: 'center',
                         // alignItems: 'center' ,

@@ -78,7 +78,7 @@ const Acceuil = () => {
                     <img src={image4} alt="Slide 4" style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '21px' }} />
                 </div>
             </Carousel>
-            <div style={{ marginTop: '20px', padding: '0 20px', textAlign: 'center' }}>
+            {/* <div style={{ marginTop: '20px', padding: '0 20px', textAlign: 'center' }}>
                 <h1>Pourquoi choisir l'Ispatec ?</h1>
                 <h3>L'université de l'innovation et de l'excellence !</h3>
                 <p>
@@ -87,15 +87,15 @@ const Acceuil = () => {
                 <p>
                     À l'Ispatec, nous croyons en votre potentiel et nous nous engageons à vous offrir une éducation de qualité qui vous prépare à un avenir brillant. Nos filières sont conçues pour répondre aux besoins du marché et pour vous aider à exceller dans votre domaine de prédilection.
                 </p>
-            </div>
+            </div> */}
 
-            <div style={{ marginTop: '20px', padding: '0 20px', textAlign: 'center' }}>
+            {/* <div style={{ marginTop: '20px', padding: '0 20px', textAlign: 'center' }}>
                 <h2>Découvrez IspaOrientec, votre guide vers l'orientation réussie !</h2>
                 <p>
                 Ce site web a été conçu pour vous aider à explorer les filières disponibles à l'Ispatec en fonction de votre série au BAC. Grâce à IspaOrientec, vous pouvez facilement découvrir les opportunités qui s'offrent à vous et faire des choix éclairés pour votre avenir académique et professionnel.
                 </p>
                 <h3>Rejoignez-nous et transformez vos ambitions en réalité !</h3>
-            </div>
+            </div> */}
             
             <Card 
                 title="Selectionner votre serie" 
@@ -126,14 +126,14 @@ const Acceuil = () => {
                         optionFilterProp="label"
                         variant="underlined"
                         style={{ width: '200px'}}
-                        showSearch
+                        // showSearch
                     >
                     <Select.Option value="tse">TSE</Select.Option>
                     <Select.Option value="tsexp">TSEXP</Select.Option>
                     <Select.Option value="texco">TSECO</Select.Option>
                     <Select.Option value="tll">TLL</Select.Option>
                     <Select.Option value="tss">TSS</Select.Option>
-                    <Select.Option value="tal">TAL</Select.Option>
+                    {/* <Select.Option value="tal">TAL</Select.Option> */}
                     </Select>
                 </Form.Item>
 

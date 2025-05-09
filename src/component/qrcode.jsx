@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, QRCode, Segmented, Space } from 'antd';
-import ispatecLogo from '../assets/ispatec.png';
+// import ispatecLogo from '../assets/ispatec.png';
 
 
 
@@ -38,15 +38,15 @@ const Qrcode = () => {
   const [renderType, setRenderType] = React.useState('canvas');
   return (
     <Space id="myqrcode" direction="vertical" style={{ alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
-        <h1>Partager en scannant le code</h1>
+        {/* <h1>Partager en scannant le code</h1> */}
       <Segmented options={['canvas', 'svg']} value={renderType} onChange={setRenderType} />
       <div style={{ alignItems: 'center', justifyContent: 'center', display: 'flex' , flexDirection: 'column'}}>
         <QRCode
           type={renderType}
-          value="http://localhost:5173/"
+          value="https://ispaorientec.netlify.app/ispaorientec"
           bgColor="#fff"
           style={{ marginBottom: 16, width: '100%'}}
-          icon= "../assets/ispatec.png"
+        //   icon={ispatecLogo} // Correction du chemin de l'icône pour le QRCode
         />
         <Button
           type="primary"
